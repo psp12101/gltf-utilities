@@ -1,5 +1,9 @@
 # glTF Utilities
 
+<p align="center">
+<a href="https://www.khronos.org/gltf"><img src="doc/gltf.png" /></a>
+</p>
+
 JavaScript utility library for working with glTF models.  This library provides a consistent API for loading various glTF resources, such as images, shaders, and buffers, from a remote URL (both same-origin and cross-origin) or embedded using a [data URI](https://developer.mozilla.org/en-US/docs/data_URIs).
 
 ## How to use
@@ -41,3 +45,10 @@ gltfUtilities.loadArrayBuffer(bufferUrl, function(arrayBuffer) {
   // The ArrayBuffer failed to load
 });
 ```
+
+***
+
+Developed by <a href="http://www.agi.com/">AGI</a>, founders of the Cesium WebGL engine.
+<p align="center">
+<a href="http://cesiumjs.org/"><img src="doc/cesium.png" /></a>
+</p>
